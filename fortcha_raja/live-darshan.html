@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live Darshan — Fortcha Raja</title>
+  <meta name="description" content="Live YouTube darshan of Fortcha Raja, plus real-time queue and wait-time at every gate.">
+  <meta name="theme-color" content="#06597b">
+  <link rel="canonical" href="https://fortcharaja.com/live-darshan.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Live Darshan — Fortcha Raja">
+  <meta property="og:description" content="Live YouTube darshan of Fortcha Raja, plus real-time queue and wait-time at every gate.">
+  <meta property="og:url" content="https://fortcharaja.com/live-darshan.html">
+  <meta property="og:image" content="https://fortcharaja.com/assets/img/fcr-idol-mandap.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mukta:wght@300;400;500;600;700;800&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/icons/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Analytics placeholder — paste your snippet here (README step 7) -->
+</head>
+<body data-festival="off">
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header id="site-header"></header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html" data-mr="मुख्यपृष्ठ" data-hi="होम">Home</a> &rsaquo; <span data-mr="थेट दर्शन" data-hi="लाइव दर्शन">Live Darshan</span></p>
+        <h1 data-mr="थेट दर्शन" data-hi="लाइव दर्शन">Live Darshan</h1>
+        <p data-mr="थेट प्रक्षेपण पाहा आणि प्रत्येक गेटवरील रांग रिअल-टाइममध्ये तपासा." data-hi="लाइव स्ट्रीम देखें और हर गेट पर रियल-टाइम कतार जांचें.">Watch the live stream and check real-time queue at every gate.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="video-wrap reveal" style="max-width:900px;margin-inline:auto">
+          <div class="ph"><span style="font-size:3.4rem">▶</span><span data-mr="थेट YouTube दर्शन येथे एम्बेड होते" data-hi="लाइव YouTube दर्शन यहां एम्बेड होता है">Live YouTube darshan embeds here</span></div>
+          <!-- Replace .ph above with:
+          <iframe src="https://www.youtube.com/embed/LIVE_VIDEO_ID" title="Live Darshan"
+                  allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe> -->
+        </div>
+        <div class="section-head mt-3"><span class="eyebrow" data-mr="आत्ता" data-hi="अभी">Right now</span><h2 data-mr="थेट रांग आणि प्रतीक्षा वेळ" data-hi="लाइव कतार और प्रतीक्षा समय">Live Queue & Wait Time</h2><p data-mr="गेट मोजणीनुसार अद्ययावत. कमी गर्दीच्या वेळेसाठी आपली भेट नियोजित करा." data-hi="गेट गणना से अपडेट. कम भीड़ के लिए अपनी यात्रा की योजना बनाएं.">Updated from gate counts. Plan your visit for a lighter queue.</p></div>
+        <div class="grid grid-3">
+          <div class="card reveal"><h3 data-mr="मुख्य गेट" data-hi="मुख्य गेट">Main Gate</h3><div class="queue-card mt-2"><div class="meter" data-queue="35"><i></i></div></div><p data-queue-label class="mt-1" style="font-weight:600;color:var(--maroon)"></p></div>
+          <div class="card reveal"><h3 data-mr="VIP गेट" data-hi="VIP गेट">VIP Gate</h3><div class="queue-card mt-2"><div class="meter" data-queue="15"><i></i></div></div><p data-queue-label class="mt-1" style="font-weight:600;color:var(--maroon)"></p></div>
+          <div class="card reveal"><h3 data-mr="ज्येष्ठ / दिव्यांग" data-hi="वरिष्ठ / दिव्यांग">Senior / Divyang</h3><div class="queue-card mt-2"><div class="meter" data-queue="20"><i></i></div></div><p data-queue-label class="mt-1" style="font-weight:600;color:var(--maroon)"></p></div>
+        </div>
+        <p class="note-box mt-3"><span data-mr="रांग मीटर" data-hi="कतार मीटर">Queue meters read the</span> <code>data-queue</code> <span data-mr="अ‍ॅट्रिब्यूट वाचतात. वास्तविक गेट मोजणीवरून हे अद्ययावत करण्यासाठी एक छोटे API जोडा (README step 6)." data-hi="एट्रिब्यूट पढ़ते हैं. वास्तविक गेट गणना से इन्हें अपडेट करने के लिए एक छोटा API जोड़ें (README step 6).">attribute. Hook a small API to update these from real gate counts (README step 6).</span></p>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="js/lang.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
